@@ -1,18 +1,20 @@
-uuid: b3b4f7f5-1b89-407d-acec-b0503990bc42
+uuid: 12cd1c02-2b15-4235-ba40-7ab1870e836a
 langcode: en
 status: true
 dependencies:
   module:
     - node
-id: node.field_pub_osu_profile
-field_name: field_pub_osu_profile
+id: node.field_pub_issn
+field_name: field_pub_issn
 entity_type: node
-type: entity_reference
+type: string
 settings:
-  target_type: node
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
 module: core
 locked: false
-cardinality: -1
+cardinality: 1
 translatable: true
 indexes: { }
 persist_with_no_fields: false

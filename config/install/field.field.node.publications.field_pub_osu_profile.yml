@@ -14,7 +14,7 @@ label: 'OSU Profile'
 description: 'Add <em>Profile</em> pages to show publications on the respective profiles.'
 required: false
 translatable: false
-default_value: {  }
+default_value: { }
 default_value_callback: ''
 settings:
   handler: 'default:node'

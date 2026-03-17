@@ -2,8 +2,8 @@
   "name": "osu-wams/osu_publications",
   "description": "OSU Drupal module to provide Citations.",
   "minimum-stability": "stable",
+  "license": "GPL-2.0-or-later",
   "type": "drupal-custom-module",
-  "license": "license",
   "authors": [
     {
       "name": "Matthew Brabham",
